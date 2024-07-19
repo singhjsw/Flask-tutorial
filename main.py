@@ -21,7 +21,7 @@ def predict():
 
 @app.route('/', methods=['GET'])
 def ping():
-    return "Welcome to MPG prediction applciation. Use /predict for predictions!!"
+    return "Welcome to MPG prediction application. Use /predict for predictions!!"
 
 # if __name__ == '__main__':
 #     app.run(debug=True, host='0.0.0.0', port=9696)
